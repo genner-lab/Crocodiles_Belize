@@ -13,8 +13,13 @@ Sample code identifiers, and the index and adaptors used for each sample.
 
 scripts
 
-FILE: x.R
+FILE: crocodile.R
 The R code used for the analyses of population genetic structure
 
-FILE: x.txt
-Scripts used for the admixture and PCA analyses
+FILE: croc_admixture.txt
+Script used for the admixture analysis
+
+FILE: croc_PCA.txt
+Script used for the PCA analysis
+
+
