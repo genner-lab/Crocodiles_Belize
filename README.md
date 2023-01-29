@@ -16,10 +16,5 @@ scripts
 FILE: crocodile.R
 The R code used for the analyses of population genetic structure
 
-FILE: croc_admixture.txt
-Script used for the admixture analysis
-
-FILE: croc_PCA.txt
-Script used for the PCA analysis
-
-
+FILE: croc_PCA_ADMIXTURE.txt
+Script used for the PCA and admixture analysis
