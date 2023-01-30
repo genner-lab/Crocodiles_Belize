@@ -8,9 +8,6 @@ FILE: params-crocodile.txt
 The ipyrad parameter file. Note this relies on the C. porosus reference assembly GCF_001723895.fna.gz which is available at:
 https://www.ncbi.nlm.nih.gov/assembly/GCF_001723895.1/
 
-FILE: sample_codes.txt
-Sample code identifiers, and the index and adaptors used for each sample.
-
 FILE: Croc83.vcf
 ipyrad output variant file, 83 specimens including reference specimens.
 
@@ -19,6 +16,12 @@ filtered variant file, retaining only positions represented in 80% of individual
 
 FILE: Croc80_80.vcf
 filtered variant file, retaining only positions represented in 80% of individuals, 80 specimens excluding 3 reference specimens.
+
+FILE: Admixture_Long.txt
+used for plotting admixture values. sample = sample code; species and prob combine to give the proportional genetic composition of the individual to species
+
+FILE: PCA_plot_data.txt
+used for PCA plotting. sample = sample code; PC1 = values on PC1; PC2 = values on PC2; Group = group category based on admixture results for wild samples
 
 scripts
 
