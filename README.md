@@ -25,7 +25,7 @@ used for PCA plotting. sample = sample code; PC1 = values on PC1; PC2 = values o
 
 scripts
 
-FILE: crocodile.R
+FILE: CrocodileScript.R
 The R code used for the analyses of population genetic structure
 
 FILE: croc_PCA_ADMIXTURE.txt
