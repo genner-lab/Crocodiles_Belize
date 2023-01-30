@@ -11,6 +11,15 @@ https://www.ncbi.nlm.nih.gov/assembly/GCF_001723895.1/
 FILE: sample_codes.txt
 Sample code identifiers, and the index and adaptors used for each sample.
 
+FILE: Croc83.vcf
+ipyrad output variant file, 83 specimens including reference specimens.
+
+FILE: Croc83_80.vcf
+filtered variant file, retaining only positions represented in 80% of individuals, 83 specimens including reference specimens.
+
+FILE: Croc80_80.vcf
+filtered variant file, retaining only positions represented in 80% of individuals, 80 specimens excluding 3 reference specimens.
+
 scripts
 
 FILE: crocodile.R
