@@ -23,6 +23,8 @@ used for plotting admixture values. sample = sample code; species and prob combi
 FILE: PCA_plot_data.txt
 used for PCA plotting. sample = sample code; PC1 = values on PC1; PC2 = values on PC2; Group = group category based on admixture results for wild samples
 
+FILE: Population_80.txt used for assigning wild individuals to populations in population genetic analysis. Species = assigned using admixture results. Population = assigned using geographical data.
+
 scripts
 
 FILE: CrocodileScript.R
