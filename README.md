@@ -32,3 +32,6 @@ The R code used for the analyses of population genetic structure
 
 FILE: croc_PCA_ADMIXTURE.txt
 Script used for the PCA and admixture analysis
+
+FILE: FineRADstructure_script.txt
+Script used for FineRADstructure analysis
