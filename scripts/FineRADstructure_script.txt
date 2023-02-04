@@ -1,0 +1,13 @@
+#Convert VCF to a haplotype matrix
+./RADpainter hapsFromVCF Croc80_80.vcf > croc_hapmatrix.txt
+
+#Manually replace line of library codes in croc_hapmatrix.txt with actual sample codes
+
+#Calculate the co-ancestry matrix
+./RADpainter paint croc_hapmatrix.txt
+
+#Assign individuals to populations
+./finestructure -x 100000 -y 100000 -z 1000 croc_hapmatrix_chunks.out croc_hapmatrix_chunks.mcmc.xml
+
+#Tree building
+./finestructure -m T -x 10000 croc_hapmatrix_chunks.out croc_hapmatrix_chunks.mcmc.xml croc_hapmatrix_chunks.mcmcTree.xml
