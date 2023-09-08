@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7604944.svg)](https://doi.org/10.5281/zenodo.7604944)
 
-Crocodile hybridization paper
+**Crocodile hybridization paper**
 
 Data and code underpinning the paper "Population genetic structure of Morelet’s and American crocodiles in Belize: hybridization, connectivity and conservation" by Clare J. Wilkie, Marisa M. Tellez, Gareth Jones and Martin J. Genner
 
