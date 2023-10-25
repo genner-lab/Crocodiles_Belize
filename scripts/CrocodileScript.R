@@ -73,8 +73,8 @@ dapc_croc_all_plot
 #Next lets retain only the Morelets
 
 Morlets_biallelic_38 <- Croc_biallelic_80
-Morlets_biallelic_38 <- Morlets_biallelic_38[pop(Morlets_biallelic_38) != "Acutus_A"]
-Morlets_biallelic_38 <- Morlets_biallelic_38[pop(Morlets_biallelic_38) != "Acutus_B"]
+Morlets_biallelic_38 <- Morlets_biallelic_38[pop(Morlets_biallelic_38) != "Acutus_Mainland"]
+Morlets_biallelic_38 <- Morlets_biallelic_38[pop(Morlets_biallelic_38) != "Acutus_Offshore"]
 Morlets_biallelic_38 <- Morlets_biallelic_38[pop(Morlets_biallelic_38) != "Admixed"]
 Morlets_biallelic_38$pop
 
