@@ -1,0 +1,17 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf Croc83_80.vcf
+	--out Croc80_80.vcf
+	--recode
+	--remove-indv Index02_DM-Ad_TCGAT
+	--remove-indv Index11_DM-Ad_GGTTG
+	--remove-indv Index12_DM-Ad_AAGGA
+
+Excluding individuals in 'exclude' list
+After filtering, kept 80 out of 83 Individuals
+Outputting VCF file...
+After filtering, kept 1092 out of a possible 1092 Sites
+Run Time = 0.00 seconds

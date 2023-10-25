@@ -1,0 +1,17 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf croc83.vcf
+	--max-alleles 2
+	--min-alleles 2
+	--max-missing 0.8
+	--out Croc83_80.vcf
+	--recode
+	--remove-indels
+
+After filtering, kept 83 out of 83 Individuals
+Outputting VCF file...
+After filtering, kept 1092 out of a possible 9884 Sites
+Run Time = 1.00 seconds
