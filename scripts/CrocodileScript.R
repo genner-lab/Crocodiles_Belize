@@ -11,7 +11,7 @@ library(StAMPP)
 
 #Format the PCA output from wild and reference samples manually, then read in the PCA output and plot
 
-PCA_83Samples_Scores <- read.table("PCA_83Samples_Scores.txt",header=TRUE,fill=TRUE,sep="\t",check.names=FALSE)
+PCA_83Samples_Scores <- read.table("PCA_plot_data.txt",header=TRUE,fill=TRUE,sep="\t",check.names=FALSE)
 
 PCA_83SamplesPlot <- ggscatter(PCA_83Samples_Scores, x = "PC1", y = "PC2", color = "Sample_Group",
                                 ellipse = FALSE, ellipse.type = "convex", mean.point = FALSE,
